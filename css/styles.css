@@ -1,0 +1,292 @@
+/* General Rules */
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* navigation - hero section */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+span {
+    color: #2e2f42;
+}
+
+.headerctn{
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 76px;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item{
+    padding: 24px 0;
+    color: #2e2f42;
+}
+
+
+header a {
+    color: #434455;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:focus {
+    color: #404BBF;
+}
+
+
+.contact{
+    font-style: normal;
+}
+
+.contact-container{
+    display: flex;
+    gap: 40px;
+}
+
+.contact-item{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section 1*/ 
+
+.hero {
+    padding: 188px 0;
+}
+
+.hero .container .hero-text {
+    max-width: 496px;
+}
+
+.hero .hero-button {
+    display: block;
+    background-color: #4d5ae5;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+/* About us section */
+
+.visually-hidden{
+    display: none;
+}
+.about-us{
+    height: 344px;
+    padding: 120px 0;
+}
+
+.aboutus-items{
+    display: flex;
+    gap: 24px;
+}
+
+.aboutus-item{
+    width: calc((100% - 72px) / 4);
+}
+
+.item-header{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.item-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/* Our Team section */
+.our-team {
+    background-color: #F4F4FD;
+    height: 732px;
+    padding: 120px 0;
+}
+
+.our-team-header {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.ot-items {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ot-item{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.otitem-text {
+    padding: 32px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.otitem-header{
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.otitem-p {
+    text-align: center;
+}
+
+
+
+/* Our Portfolio section */
+.our-portfolio{
+    height: 1240px;
+    padding: 120px 0;
+
+}
+.op-container{
+    margin-bottom: 100px;
+}
+.portfolio-header{
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.op-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 48px;
+}
+
+.portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+
+.portfolio-header {
+    font-size: 36px;
+}
+
+.card-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* Footer section */
+.footer {
+    padding: 100px 0;
+    background-color: #2E2F42;
+    color: white;
+    height: 312px;
+}
+
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer span{
+    color: white;
+}
+
+.footer .footer-text {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
