@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+
 img{
     display: block;
 }
@@ -72,6 +73,10 @@ span {
     color: #2e2f42;
 }
 
+.active {
+    color: #404BBF;
+    border-bottom: 1px solid #404BBF;
+}
 
 header a {
     color: #434455;
@@ -101,7 +106,20 @@ header a:focus {
 /* Section 1*/ 
 
 .hero {
+    color: white;
     padding: 188px 0;
+    background-color: #2E2F42;
+    background-image: url(../images/Dark-bg.png), url(../images/heroimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero .container .hero-text {
@@ -109,6 +127,7 @@ header a:focus {
 }
 
 .hero .hero-button {
+    color: white;
     display: block;
     background-color: #4d5ae5;
     border: none;
@@ -143,6 +162,9 @@ header a:focus {
     width: calc((100% - 72px) / 4);
 }
 
+.icon{
+    fill: black;
+}
 .item-header{
     margin-bottom: 8px;
     font-weight: 500;
