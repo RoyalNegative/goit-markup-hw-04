@@ -75,7 +75,8 @@ span {
 
 .active {
     color: #404BBF;
-    border-bottom: 1px solid #404BBF;
+    border-bottom: 5px solid #404BBF;
+    
 }
 
 header a {
@@ -124,6 +125,9 @@ header a:focus {
 
 .hero .container .hero-text {
     max-width: 496px;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
 }
 
 .hero .hero-button {
@@ -163,11 +167,14 @@ header a:focus {
 }
 
 .icon{
-    fill: black;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    
+    padding: 24px 100px;
 }
 .item-header{
     margin-bottom: 8px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -233,7 +240,23 @@ header a:focus {
     text-align: center;
 }
 
+.profile-icons-container{
+    
+}
 
+.p-icons{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+.p-icon{
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+}
 
 /* Our Portfolio section */
 .our-portfolio{
