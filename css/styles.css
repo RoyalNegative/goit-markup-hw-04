@@ -76,8 +76,8 @@ span {
 }
 
 .active {
-    color: #404BBF;
     position: relative;
+    color: #404BBF;
 }
 
 .active::after{
@@ -122,11 +122,11 @@ header a:focus {
 .hero {
     color: white;
     padding: 188px 0;
-    background-color: #2E2F42;
     background-image: url(../images/Dark-bg.png), url(../images/heroimage.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .hero .container{
@@ -152,6 +152,7 @@ header a:focus {
     min-width: 169px;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .hero-button:hover,
@@ -180,10 +181,16 @@ header a:focus {
 }
 
 .icon{
-    background-color: #F4F4FD;
-    border: 1px solid #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
     
-    padding: 24px 100px;
+
 }
 .item-header{
     margin-bottom: 8px;
