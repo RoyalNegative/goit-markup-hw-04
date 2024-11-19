@@ -189,7 +189,7 @@ header a:focus {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-    
+
 
 }
 .item-header{
@@ -234,6 +234,7 @@ header a:focus {
 
 .ot-item{
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
     text-align: center;
@@ -304,6 +305,24 @@ header a:focus {
     margin-left: auto;
     margin-right: auto;
     row-gap: 48px;
+}
+
+.portfolio-item{
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+.portfolio-item:hover{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+}
+
+.portfolio-item:hover p{
+    transform:translateY(0%);
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
 }
 
 .portfolio{
