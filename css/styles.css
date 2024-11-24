@@ -278,6 +278,7 @@ header a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
 
 .ot-social-link:hover {
